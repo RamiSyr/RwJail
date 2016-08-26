@@ -1,5 +1,5 @@
 Ransomware Jail - Beta
-Author: Rami Alhaddad (c) 2016
+Author: Rami Alhaddad @ AM Data Service, Inc.
 
 
 This program creates ~15k of dummy files, which are ~150MB in size, and located in [UserName]\$.RwJail folder.
