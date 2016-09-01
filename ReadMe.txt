@@ -9,3 +9,9 @@ then the program tries to detect the process who caused this change and kill it 
 
 The Monitor process in Task Manager is: "RwJail.exe", and it is scheduled to run when user loggs in.
 
+UPDATES:
+--------
+08-03-2016  Released
+09-01-2016  
+- Fix bug when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder
+- Fix bug when "uninstall.exe" doesn't delete itself from "Program Files\RwJail\"
