@@ -12,8 +12,8 @@ UPDATES:
 - Fix bug when "uninstall.exe" doesn't delete itself from "Program Files\RwJail\"
 
 9-13-2016
-- Change the monitored folder from "$.RwJail" to "!.RwJail" after finding that there are some ransomwares skip folders start with "$".
-- Add Auto Update.
+- Change the monitored folder from "$.RwJail" to "!.RwJail" after finding that the encryption process of some ransomwares skip folders start with "$".
+- Add an Auto Updater code.
 The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will run the new setup and delete itself.
 
 INSTRUCTIONS:
