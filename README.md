@@ -5,7 +5,7 @@ Author: Rami Alhaddad @ AM Data Service, Inc.
 UPDATES:
 --------
 08-03-2016
-- Released
+- Releas Beta version
 
 09-01-2016  
 - Fix bug when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder
