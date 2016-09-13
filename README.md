@@ -26,3 +26,8 @@ When any change happens, the program creates few linked folders inside some sens
 Then the program tries to detect the process who caused this change and kill it after notifying the user.
 
 The Monitor process in Task Manager is: "RwJail.exe", and it is scheduled to run when user logs in.
+
+How To Setup:
+-------------
+Downloading and running "Ransomware_Jail_Setup.exe" is enough to get everything ready for you.
+The setup will download the rest of files as needed.
