@@ -16,6 +16,11 @@ UPDATES:
 - Add Auto Update function -
 The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will run the new setup and delete itself.
 
+9-14-2016
+- Add "Detection History" as a tray menu to show the detected processes, by other means: write every detected process into "Detection.log" file in "RwJail" folder in "Program Files", then open it from tray menu.
+- Addition to Setup.exe to ask for uninstalling the RwJail if exist. If yes, it will uninstall it for you.
+- Add TrayTip when detection, and then big MagicBox Warning message disapears after 10 seconds.
+
 INSTRUCTIONS:
 -------------
 This program creates ~15k of dummy files, which are ~150MB in size, and located in [UserName]\!.RwJail folder.
