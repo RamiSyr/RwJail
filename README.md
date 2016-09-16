@@ -8,14 +8,13 @@ UPDATES:
 - Releas Beta version
 
 09-01-2016  
-- Fix bugs when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder
-                "uninstall.exe" doesn't delete itself from "Program Files\RwJail\"
-- Add the codes: Setup and Uninstall scripts: (have the script run at maximum speed, Never sleep)
-                 Monitor.exe: prevent the script from using any more than 50% of an idle CPU's time. This allows scripts to run quickly while still maintaining a high level of cooperation with CPU sensitive tasks such as games and video capture/playback.
+- Fix bugs when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder, and doesn't delete itself from "Program Files\RwJail\"
+- Add codes to: Setup and Uninstall scripts: Have the script run at maximum speed, Never sleep.
+                Monitor.exe: Prevent the script from using any more than 50% of an idle CPU's time. This allows scripts to run quickly while still maintaining a high level of cooperation with CPU sensitive tasks such as games and video capture/playback.
 
 9-13-2016
-- Change everything related to "$.RwJail" into "!.RwJail" after finding that the encryption process of some ransomwares skip folders    start with "$".
-- Add Auto Update function in Setup.exe-
+- Change everything related to the name "$.RwJail" into "!.RwJail" after finding that the encryption process of some ransomwares skip folders start with "$".
+- Add Always Update to newer version in Setup.exe -
   The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will delete itself and will run the new setup.
 
 9-14-2016
