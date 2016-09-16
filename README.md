@@ -1,6 +1,6 @@
 Ransomware Jail - Beta 3
 
-Author: Rami Alhaddad @ AM Data Service, Inc.
+Author: AM Data Service, Inc.
 
 UPDATES:
 --------
@@ -8,13 +8,15 @@ UPDATES:
 - Releas Beta version
 
 09-01-2016  
-- Fix bug when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder
-- Fix bug when "uninstall.exe" doesn't delete itself from "Program Files\RwJail\"
+- Fix bugs when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder
+                "uninstall.exe" doesn't delete itself from "Program Files\RwJail\"
+- Add the codes: Setup and Uninstall scripts: (have the script run at maximum speed, Never sleep)
+                 Monitor.exe: prevent the script from using any more than 50% of an idle CPU's time. This allows scripts to run quickly while still maintaining a high level of cooperation with CPU sensitive tasks such as games and video capture/playback.
 
 9-13-2016
-- Change everything related to "$.RwJail" into "!.RwJail" after finding that the encryption process of some ransomwares skip folders start with "$".
+- Change everything related to "$.RwJail" into "!.RwJail" after finding that the encryption process of some ransomwares skip folders    start with "$".
 - Add Auto Update function in Setup.exe-
-The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will run the new setup and delete itself.
+  The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will delete itself and will run the new setup.
 
 9-14-2016
 - Add "Detection History" as a tray menu in RwJail Monitor to show the detected processes, by other means: write every detected process into "Detection.log" file in "RwJail" folder in "Program Files", then open it from tray menu.
