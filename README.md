@@ -1,4 +1,4 @@
-Ransomware Jail - Beta 3
+Ransomware Jail - Beta 4
 
 Author: AM Data Service, Inc.
 
