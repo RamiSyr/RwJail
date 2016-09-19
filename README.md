@@ -5,7 +5,7 @@ Author: AM Data Service, Inc.
 UPDATES:
 --------
 08-03-2016
-- Releas Beta version
+- Released
 
 09-01-2016  
 - Fix bugs when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder, and doesn't delete itself from "Program Files\RwJail\"
