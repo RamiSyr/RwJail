@@ -5,20 +5,20 @@ Author: AM Data Service, Inc.
 UPDATES:
 ----
 **09-19-2016**
-- Give "Detection.log" Read Only attribute, now we cannot change the data after open it from the Detection History Tray and read it after changes.
+- Give **Detection.log** Read Only attribute, now we cannot change the data after open it from the Detection History Tray and read it after changes.
 
 **9-14-2016**
-- Add "Detection History" as a tray menu in RwJail Monitor to show the detected processes, by other means: write every detected process into "Detection.log" file in "RwJail" folder in "Program Files", then open it from tray menu.
+- Add **Detection History** as a tray menu in RwJail Monitor to show the detected processes, by other means: write every detected process into **Detection.log** file in **RwJail** folder in **Program Files**, then open it from tray menu.
 - Addition to Setup.exe to ask for uninstalling the RwJail if exist. If yes, it will uninstall it for you.
 - Add TrayTip to Monitor when detection, and then big MagicBox Warning message disapears after 10 seconds. 
 
 **9-13-2016**
-- Change everything related to the name "$.RwJail" into "!.RwJail" after finding that the encryption process of some ransomwares skip folders start with "$".
+- Change everything related to the name **$.RwJail** into **!.RwJail** after finding that the encryption process of some ransomwares skip folders start with `$`.
 - Add Always Update to newer version in Setup.exe -
-  The script will check if there is a newer version, if yes, will download it in the same folder with name RwJailMMDDYYYY.exe then will delete itself and will run the new setup.
+  The script will check if there is a newer version, if yes, will download it in the same folder with name **RwJailMMDDYYYY.exe** then will delete itself and will run the new setup.
 
 **09-01-2016  **
-- Fix bugs when "uninstall.exe" doesn't delete the monitor shortcut from the Startup Folder, and doesn't delete itself from "Program Files\RwJail\"
+- Fix bugs when **uninstall.exe** doesn't delete the monitor shortcut from the Startup Folder, and doesn't delete itself from `Program Files\RwJail\`
 - Add codes to: Setup and Uninstall scripts: Have the script run at maximum speed, Never sleep.
                 Monitor.exe: Prevent the script from using any more than 50% of an idle CPU's time. This allows scripts to run quickly while still maintaining a high level of cooperation with CPU sensitive tasks such as games and video capture/playback.
 
