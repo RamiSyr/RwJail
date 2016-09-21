@@ -3,7 +3,7 @@
 Author: AM Data Service, Inc.
 
 UPDATES:
-========
+----
 **09-19-2016**
 - Give "Detection.log" Read Only attribute, now we cannot change the data after open it from the Detection History Tray and read it after changes.
 
