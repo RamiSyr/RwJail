@@ -38,5 +38,5 @@ The Monitor process in Task Manager is: "RwJail.exe", and it is scheduled to run
 
 How To Setup:
 -------------
-Downloading and running "Ransomware_Jail_Setup.exe" is enough to get everything ready for you.
+Downloading and running ***`Ransomware_Jail_Setup.exe`*** is enough to get everything ready for you.
 The setup will download the rest of the files as needed. Will also uninstall any version if exist , and will be available to always update to newest version when releases.
