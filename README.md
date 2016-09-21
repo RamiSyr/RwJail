@@ -27,14 +27,14 @@ UPDATES:
 
 INSTRUCTIONS:
 -------------
-This program creates ~15k of dummy files, which are ~150MB in size, and located in [UserName]\!.RwJail folder.
+This program creates **~15k** of dummy files, which are **~150MB** in size, and located in `[UserName]\!.RwJail folder`.
 Then the program monitors that folder for any changes (Edit, Rename, Delete, Modifying, etc.).
 
-When any change happens, the program creates few linked folders inside some sensitive areas such as (C:\, My Documents, etc.). This linked folders navigate to !.RwJail folder (the encryption process should hit a recursive loop).
+When any change happens, the program creates few linked folders inside some sensitive areas such as (`C:\`, `My Documents`, etc.). This linked folders navigate to **!.RwJail** folder (the encryption process should hit a recursive loop).
 
 Then the program tries to detect the process who caused this change and kill it after notifying the user.
 
-The Monitor process in Task Manager is: "RwJail.exe", and it is scheduled to run when user logs in.
+The Monitor process in Task Manager is: **RwJail.exe**, and it is scheduled to run when user logs in.
 
 How To Setup:
 -------------
