@@ -1,11 +1,11 @@
-#Ransomware Jail - Beta 4
+# Ransomware Jail - Beta 4
 
 Author: AM Data Service, Inc.
 
 UPDATES:
 ----
 >**09-19-2016**
-- Give **Detection.log** Read Only attribute, now we cannot change the data after open it from the Detection History Tray and read it after changes.
+- Give **Detection.log** Read Only attribute.
 
 >**9-14-2016**
 - Add **Detection History** as a tray menu in RwJail Monitor to show the detected processes, by other means: write every detected process into **Detection.log** file in **RwJail** folder in **Program Files**, then open it from tray menu.
