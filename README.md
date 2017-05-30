@@ -9,8 +9,8 @@ UPDATES:
 
 >**9-14-2016**
 - Add **Detection History** as a tray menu in RwJail Monitor to show the detected processes, by other means: write every detected process into **Detection.log** file in **RwJail** folder in **Program Files**, then open it from tray menu.
-- Addition to Setup.exe to ask for uninstalling the RwJail if exist. If yes, it will uninstall it for you.
-- Add TrayTip to Monitor when detection, and then big MagicBox Warning message disapears after 10 seconds. 
+- Addition to **Setup.exe** to ask for uninstalling the RwJail if exist. If yes, it will uninstall it for you.
+- Add TrayTip to Monitor when detects any ransomware behavior, and then a big MagicBox Warning message disapears after 10 seconds. 
 
 >**9-13-2016**
 - Change everything related to the name **$.RwJail** into **!.RwJail** after finding that the encryption process of some ransomwares skip folders start with `$`.
